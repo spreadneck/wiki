@@ -1,0 +1,41 @@
+site_name: My wiki
+use_directory_urls: true
+nav:
+  - Home: index.md
+  - About:
+      - This Site: about/this_site.md
+  - Blog: blog/index.md
+theme:
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  features:
+    - navigation.expand
+    - navigation.indexes
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+  # name: terminal
+  # palette: dark
+  # locale: en
+plugins:
+  - blog:
+      blog_dir: blog
+      blog_index_title: "Blog"
+      blog_toc: false
+  - tags
+  - search
+  - meta

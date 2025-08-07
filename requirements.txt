@@ -1,0 +1,7 @@
+Markdown==3.8.2
+mkdocs==1.6.1
+mkdocs-material~=9.6.16
+
+# Python Markdown Extensions
+pygments>=2.12
+pymdown-extensions>=10.16
