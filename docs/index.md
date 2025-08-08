@@ -3,4 +3,4 @@
 This is where I keep my thoughts.
 >[!tip]
 >This is important
-This is a work in progress.
+This is a work in progress. This will eventually contain more information.
