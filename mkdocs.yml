@@ -44,8 +44,7 @@ plugins:
       enable_creation_date: true
   - callouts
   - git-authors
-  - mike:
-    canonical_version: latest
+  - mike
 markdown_extensions:
   # Pyhton Markdown
   - pymdownx.details
