@@ -1,4 +1,4 @@
-site_name: My wiki
+site_name: Spreadneck's Wiki
 use_directory_urls: true
 nav:
   - index.md
@@ -31,6 +31,7 @@ theme:
     - navigation.tabs
     - search.suggest
     - search.highlight
+    - toc.follow
 plugins:
   - blog:
       blog_dir: blog
@@ -53,3 +54,6 @@ markdown_extensions:
   - admonition
 repo_url: https://github.com/spreadneck/wiki
 repo_name: spreadneck/wiki
+extra:
+  version:
+    provider: mike
