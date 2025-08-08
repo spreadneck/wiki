@@ -3,6 +3,7 @@ use_directory_urls: true
 nav:
   - index.md
   - About:
+      - about/index.md
       - This Site: about/this_site.md
   - Blog: 
       - blog/index.md
@@ -57,3 +58,4 @@ repo_name: spreadneck/wiki
 extra:
   version:
     provider: mike
+  generator: false

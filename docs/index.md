@@ -2,7 +2,4 @@
 
 This is where I keep my thoughts.
 
-## Cool Stuff
-
-[Stuff I think is cool.](cool-stuff/index.md)
-
+## [Cool Stuff](cool-stuff/index.md)
