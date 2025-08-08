@@ -33,8 +33,4 @@ I even have a custom vimwiki/neowiki plugin that I use to facilitate writing pos
     >[!NOTE]-
     > I guess I have always used "Obsidian-style" callouts/admonitions. Github Flavored Markdown refers to these as [Alerts](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts). Standard Markdown does not have a special syntax for callouts and MkDocs does it differently than Github/Obsidian style Markdown. This plugin allows us to use these style callouts.
 
-## Tips
-
->[!NOTE]
-> Note contents
-
+* [mkdocs-git-authors-plugin](https://github.com/timvink/mkdocs-git-authors-plugin)
