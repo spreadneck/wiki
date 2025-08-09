@@ -2,15 +2,19 @@
 
 ## The Language
 
-### Markdown
+### [Markdown](https://daringfireball.net/projects/markdown/)
 
-I love Markdown. The one thing I don't like about Markdown is there is about [15 different specs](https://imgs.xkcd.com/comics/standards.png).
+I love Markdown. The one thing I don't like about Markdown is there is about 15 different specs.
+
+![relevant xkcd](https://imgs.xkcd.com/comics/standards.png)
+/// caption
+///
 
 This site strives to use [GitHub Flavored Markdown](https://github.github.com/gfm/). Anytime we have to stray from this standard, it will be documented here.
 
 ## The Editor
 
-### Neovim
+### [Neovim](https://neovim.io)
 
 I use Neovim to write posts and pages. There are a few plugins that I use to make writing posts and pages easier:
 

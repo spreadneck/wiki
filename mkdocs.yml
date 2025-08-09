@@ -2,11 +2,13 @@ site_name: Spreadneck's Wiki
 use_directory_urls: true
 nav:
   - index.md
+  - Homelab:
+    - homelab/index.md
   - About:
-      - about/index.md
-      - This Site: about/this_site.md
+    - about/index.md
+    - This Site: about/this_site.md
   - Blog: 
-      - blog/index.md
+    - blog/index.md
 theme:
   name: material
   palette:
@@ -44,11 +46,28 @@ plugins:
   - meta
   - git-revision-date-localized:
       enable_creation_date: true
+      type: timeago
+      exclude:
+        - README.md
+        - index.md
+  - git-committers:
+      repository: spreadneck/wiki
+      branch: main
+      exclude:
+        - README.md
+        - index.md
   - callouts
-  - git-authors
+  - git-authors:
+      show_email_address: false
+      exclude:
+        - README.md
+        - index.md
   - mike
 markdown_extensions:
+  - attr_list
+  - md_in_html
   # Pyhton Markdown
+  - pymdownx.blocks.caption
   - pymdownx.details
   - pymdownx.superfences
   - nl2br

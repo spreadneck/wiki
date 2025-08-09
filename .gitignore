@@ -1,2 +1,4 @@
 Session.vim
 site/
+.venv/
+.cache/
